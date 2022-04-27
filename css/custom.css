@@ -14,7 +14,7 @@ body {
     height: 100%;
     width: 100%;
     flex-direction: column;
-    background-image: url(/Inkscape/stars4nogradient.png);
+    background-image: url(Inkscape/stars4nogradient.png);
     background-size: cover;
     
 }
