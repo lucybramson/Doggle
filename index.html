@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Doggle</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper" id="pre-play">
+      <div class="start-page">
+        <img src="Inkscape/dogglewatermark3.svg" alt="Doggle logo" class="doggle-logo">
+        <img src="Inkscape/press start shadow.svg" alt="Press start button" class="press-start pre-play-buttons play-buttons">
+        <img src="/Inkscape/how to play button 3.svg" alt="How to play button" class="how-to-play pre-play-buttons" id="modalBtn">
+      </div>
+       <!-- Modal - instructions -->
+      <div id="modal-pre-play" class="modal">
+        <div class="modal-text-div">
+          <p class="modal-instructions">
+            2 minutes<br>
+            2 planets<br>
+            9 dogs per planet<br>
+            1 matching pair<br><br>
+            click on 1 of the matching dogs to score<br><br>
+            <img src="/Inkscape/See example.svg" class="example-button" id="inner-modalBtn">
+            <div class="back-button-div">
+              <img src="Inkscape/back button.svg" class="back-button">
+            </div>
+          </p>
+        </div>
+      </div>
+      <!-- Modal - example image -->
+      <div id="modal-image-window" class="inner-modal">
+        <img src="Inkscape/landscape how to play.jpeg" class="modal-image modal-image-landscape">
+        <img src="Inkscape/portrait how to play.jpeg" class="modal-image modal-image-portrait">
+        <img src="Inkscape/back button.svg" class="back-button-inner">    
+      </div>
+    </div>
+    <div class="wrapper" id="countdown">
+      <div class="countdown-number">
+      </div>
+    </div>
+    <div class="wrapper" id="play">
+      <div class="buttons">
+        <div class="time-div">
+          <span class="timer">Time:</span>
+          <span class="timer" id="time">02:00</span>
+        </div>
+        <div class="score-div">
+          <span class="score">Score:</span>
+          <span class="score" id="score-counter"></span>
+        </div> 
+      </div>
+      <div id="outerDiv">
+        <div class="innerDiv innerDiv1">
+          <img src="img/1.jpg" class="image top-left imageR">
+          <img src="img/1.jpg" class="image top-middle imageL">
+          <img src="img/1.jpg" class="image top-right imageR">
+          <img src="img/1.jpg" class="image middle-left imageL">
+          <img src="img/1.jpg" class="image middle-middle imageR">
+          <img src="img/1.jpg" class="image middle-right imageL">
+          <img src="img/1.jpg" class="image bottom-left imageR">
+          <img src="img/1.jpg" class="image bottom-middle imageL">
+          <img src="img/1.jpg" class="image bottom-right imageR">  
+        </div>
+        <div class="divider"></div>
+        <div class="innerDiv innerDiv2">
+          <img src="img/1.jpg" class="image top-left imageL">
+          <img src="img/1.jpg" class="image top-middle imageR">
+          <img src="img/1.jpg" class="image top-right imageL">
+          <img src="img/1.jpg" class="image middle-left imageR">
+          <img src="img/1.jpg" class="image middle-middle imageL">
+          <img src="img/1.jpg" class="image middle-right imageR">
+          <img src="img/1.jpg" class="image bottom-left imageL">
+          <img src="img/1.jpg" class="image bottom-middle imageR">
+          <img src="img/1.jpg" class="image bottom-right imageL">  
+        </div>
+      </div>
+      <div class="spacer">
+        <img src="Inkscape/dogglewatermark.svg" alt="Doggle logo" class="watermark-logo">
+      </div>
+    </div>
+    <div class="wrapper" id="game-over">
+      <div class="game-over-page">
+        <img src="/Inkscape/Game over badge.svg" alt="Game over" class="game-over-badge">
+        <img src="Inkscape/You scored graphic.svg" alt="You scored" class="you-scored-label">
+        <div class="final-score"><span class="final-score-number"></span></div>
+        <!-- <div class="play-again play-buttons"> -->
+          <img src="Inkscape/Play again graphic.svg" alt="Play again button"class="play-again-button play-buttons">
+          <!-- Scoreboard to be added - CSS removed -->
+          <!-- <img src="Inkscape/scoreboard graphic.svg" alt="Scoreboard button" class="scoreboard-button"> -->
+        <!-- </div> -->
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js"></script> -->
+    <!-- <script src="js/velocity.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.ui.min.js"></script>
+    <!-- <script src="js/ui.js"></script> -->
+    <script src="js/app.js"></script>
+  </body> 
+</html>

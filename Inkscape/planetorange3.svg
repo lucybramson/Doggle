@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="137.23247mm"
+   height="137.23247mm"
+   viewBox="0 0 137.23246 137.23246"
+   version="1.1"
+   id="svg5905"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs5902">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter6991-5"
+       x="-0.094079996"
+       y="-0.094079996"
+       width="1.18816"
+       height="1.18816">
+      <feGaussianBlur
+         stdDeviation="4.5276"
+         id="feGaussianBlur6993-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7213-1"
+       x="-0.01728"
+       y="-0.01728"
+       width="1.03456"
+       height="1.03456">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.02 0.04"
+         numOctaves="5"
+         seed="1"
+         result="turbulence"
+         id="feTurbulence7197-8" />
+      <feComposite
+         in="SourceGraphic"
+         in2="turbulence"
+         operator="in"
+         result="composite1"
+         id="feComposite7199-8" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 3 -1 "
+         result="color"
+         id="feColorMatrix7201-3" />
+      <feFlood
+         flood-opacity="0"
+         flood-color="rgb(21,40,57)"
+         result="flood"
+         id="feFlood7203-5" />
+      <feMerge
+         result="merge"
+         id="feMerge7209-2">
+        <feMergeNode
+           in="flood"
+           id="feMergeNode7205-2" />
+        <feMergeNode
+           in="color"
+           id="feMergeNode7207-6" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite7211-6" />
+      <feGaussianBlur
+         stdDeviation="0.8316"
+         id="feGaussianBlur6228" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter5890"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.02 0.04"
+         numOctaves="5"
+         seed="1"
+         result="turbulence"
+         id="feTurbulence5874" />
+      <feComposite
+         in="SourceGraphic"
+         in2="turbulence"
+         operator="in"
+         result="composite1"
+         id="feComposite5876" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 3 -1 "
+         result="color"
+         id="feColorMatrix5878" />
+      <feFlood
+         flood-opacity="0"
+         flood-color="rgb(21,40,57)"
+         result="flood"
+         id="feFlood5880" />
+      <feMerge
+         result="merge"
+         id="feMerge5886">
+        <feMergeNode
+           in="flood"
+           id="feMergeNode5882" />
+        <feMergeNode
+           in="color"
+           id="feMergeNode5884" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite5888" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient5111"
+       id="linearGradient4950"
+       gradientUnits="userSpaceOnUse"
+       x1="-159.86673"
+       y1="-218.51329"
+       x2="-218.82692"
+       y2="-140.57925"
+       gradientTransform="matrix(1.0387296,0,0,1.0387296,123.72189,128.30085)" />
+    <linearGradient
+       id="linearGradient5111">
+      <stop
+         style="stop-color:#070718;stop-opacity:1"
+         offset="0"
+         id="stop5107" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5109" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter6224"
+       x="-0.0097199997"
+       y="-0.0097199997"
+       width="1.01944"
+       height="1.01944">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.02 0.04"
+         numOctaves="5"
+         seed="1"
+         result="turbulence"
+         id="feTurbulence6208" />
+      <feComposite
+         in="SourceGraphic"
+         in2="turbulence"
+         operator="in"
+         result="composite1"
+         id="feComposite6210" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 3 -1 "
+         result="color"
+         id="feColorMatrix6212" />
+      <feFlood
+         flood-opacity="0"
+         flood-color="rgb(21,40,57)"
+         result="flood"
+         id="feFlood6214" />
+      <feMerge
+         result="merge"
+         id="feMerge6220">
+        <feMergeNode
+           in="flood"
+           id="feMergeNode6216" />
+        <feMergeNode
+           in="color"
+           id="feMergeNode6218" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite6222" />
+      <feGaussianBlur
+         stdDeviation="0.467775"
+         id="feGaussianBlur6226" />
+    </filter>
+  </defs>
+  <circle
+     style="fill:#ff6600;fill-opacity:1;stroke-width:0.286808;filter:url(#filter6991-5);stop-color:#000000"
+     id="path6989-4"
+     cx="68.616241"
+     cy="68.616241"
+     r="57.75" />
+  <circle
+     style="mix-blend-mode:normal;fill:#aa4400;stroke-width:0.286808;filter:url(#filter7213-1);stop-color:#000000"
+     id="circle6995-1"
+     cx="165"
+     cy="206.25"
+     r="57.75"
+     transform="rotate(-171.25384,111.54547,141.11849)" />
+  <circle
+     style="mix-blend-mode:normal;fill:#803300;stroke-width:0.286808;filter:url(#filter6224);stop-color:#000000"
+     id="circle7233-7"
+     cx="165"
+     cy="206.25"
+     r="57.75"
+     transform="rotate(-171.25384,111.54547,141.11849)" />
+  <circle
+     style="fill:url(#linearGradient4950);fill-opacity:1;stroke-width:0.345795;stop-color:#000000"
+     id="circle7235-1"
+     cx="-78.25193"
+     cy="-57.384754"
+     r="69.627342"
+     transform="rotate(-171.25384)" />
+</svg>
