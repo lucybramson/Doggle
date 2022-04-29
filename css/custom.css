@@ -47,7 +47,7 @@ body {
 .timer,
 .final-score-number,
 .modal-text-div {
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'Press Start 2P', cursive;
     color:rgb(255, 0, 0);
     text-align: center;
     -webkit-text-stroke-color: rgb(255,128,128);
