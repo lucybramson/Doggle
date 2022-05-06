@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26.381975mm"
+   height="5.5497823mm"
+   viewBox="0 0 26.381975 5.5497823"
+   version="1.1"
+   id="svg2932"
+   sodipodi:docname="how to play button 3 copy.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview911"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.836845"
+     inkscape:cx="49.855701"
+     inkscape:cy="10.450851"
+     inkscape:window-width="1512"
+     inkscape:window-height="844"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2932" />
+  <defs
+     id="defs2929">
+    <linearGradient
+       id="linearGradient45127">
+      <stop
+         style="stop-color:#ff8080;stop-opacity:1;"
+         offset="0"
+         id="stop45125" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient45127"
+       id="linearGradient3069"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2021502,0,0,0.2021502,95.421673,102.29879)"
+       x1="167.83827"
+       y1="102.20257"
+       x2="282.93164"
+       y2="102.20257" />
+  </defs>
+  <g
+     id="g1002">
+    <g
+       id="layer1"
+       transform="translate(-39.918387,-107.56886)">
+      <g
+         id="g58372"
+         transform="translate(-87.926881,-12.707908)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.13942px;line-height:1.25;font-family:sans-serif;fill:#b3b3b3;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+           x="129.45613"
+           y="124.21394"
+           id="text58310"><tspan
+             id="tspan58308"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.13942px;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#b3b3b3;fill-opacity:1;stroke:#b3b3b3;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+             x="129.45613"
+             y="124.21394">HOW TO PLAY</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.13942px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:url(#linearGradient3069);stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+           x="129.35019"
+           y="124.02879"
+           id="text32543"><tspan
+             id="tspan32541"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.13942px;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:url(#linearGradient3069);stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+             x="129.35019"
+             y="124.02879">HOW TO PLAY</tspan></text>
+      </g>
+      <g
+         id="g59132"
+         transform="translate(-88.035973,-10.376308)">
+        <rect
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.174623;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+           id="rect58434"
+           width="26.127975"
+           height="5.2164145"
+           x="128.12105"
+           y="118.19122"
+           ry="2.6082072" />
+        <rect
+           style="fill:none;stroke:url(#linearGradient45127);stroke-width:0.174623;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+           id="rect58458"
+           width="26.127975"
+           height="5.2164145"
+           x="128.04167"
+           y="118.03248"
+           ry="2.6082072" />
+      </g>
+    </g>
+  </g>
+</svg>

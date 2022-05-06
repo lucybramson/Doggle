@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="26.64649mm"
+   height="5.5496702mm"
+   viewBox="0 0 26.64649 5.5496702"
+   version="1.1"
+   id="svg4390"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4387">
+    <pattern
+       xlink:href="#pattern2663"
+       id="pattern4550"
+       patternTransform="matrix(0.26458334,0,0,0.26458334,100.35607,123.19413)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="100.71117"
+       height="20.97513"
+       patternTransform="translate(-268.89339,-189.51089)"
+       id="pattern2663">
+      <g
+         id="g2661"
+         transform="matrix(3.7795275,0,0,3.7795275,-338.49455,-428.23968)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.13942px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient2649);fill-opacity:1;stroke:#b3b3b3;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+           x="91.35614"
+           y="117.33485"
+           id="text1445"><tspan
+             id="tspan1443"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.13942px;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient2649);fill-opacity:1;stroke:#b3b3b3;stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+             x="91.35614"
+             y="117.33485">HOW TO PLAY</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:2.13942px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient2649);fill-opacity:1;stroke:url(#linearGradient2645);stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+           x="91.250191"
+           y="117.14967"
+           id="text1449"><tspan
+             id="tspan1447"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.13942px;font-family:'Press Start 2P';-inkscape-font-specification:'Press Start 2P, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient2649);fill-opacity:1;stroke:url(#linearGradient2645);stroke-width:0.132292;stroke-miterlimit:4;stroke-dasharray:none"
+             x="91.250191"
+             y="117.14967">HOW TO PLAY</tspan></text>
+        <g
+           id="g1461"
+           transform="translate(-38.393897,-14.694599)">
+          <rect
+             style="fill:none;stroke:#b3b3b3;stroke-width:0.175483;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+             id="rect1451"
+             width="26.390402"
+             height="5.21558"
+             x="128.12227"
+             y="128.24603"
+             ry="2.60779" />
+          <g
+             id="g1455"
+             transform="matrix(0.20370159,0,0,0.20164372,112.45613,110.59378)">
+            <rect
+               style="opacity:1;fill:none;stroke:url(#linearGradient45127);stroke-width:0.865861;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+               id="rect1453"
+               width="129.55423"
+               height="25.865324"
+               x="76.513756"
+               y="86.753021"
+               ry="12.932662" />
+          </g>
+          <g
+             id="g1459"
+             transform="matrix(0.20370159,0,0,0.20164372,112.45613,110.59378)">
+            <rect
+               style="opacity:1;fill:none;stroke:url(#linearGradient45127);stroke-width:0.865861;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+               id="rect1457"
+               width="129.55423"
+               height="25.865324"
+               x="76.513756"
+               y="86.753021"
+               ry="12.932662" />
+          </g>
+        </g>
+      </g>
+    </pattern>
+    <linearGradient
+       xlink:href="#linearGradient23435"
+       id="linearGradient2649"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-38.100018,-6.8791671)"
+       x1="129.28404"
+       y1="123.05166"
+       x2="152.78847"
+       y2="123.05166" />
+    <linearGradient
+       id="linearGradient23435">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop23433" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient45127"
+       id="linearGradient2645"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.2021502,0,0,0.2021502,57.321649,95.419557)"
+       x1="167.83827"
+       y1="102.20257"
+       x2="282.93164"
+       y2="102.20257" />
+    <linearGradient
+       id="linearGradient45127">
+      <stop
+         style="stop-color:#ff8080;stop-opacity:1;"
+         offset="0"
+         id="stop45125" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-100.35607,-123.19413)">
+    <path
+       id="rect2676"
+       style="fill:url(#pattern4550);stroke-width:0.264583"
+       d="m 100.35607,123.19413 h 26.64649 v 5.54967 h -26.64649 z" />
+  </g>
+</svg>
