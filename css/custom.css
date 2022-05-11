@@ -171,11 +171,11 @@ s  .modal-image-landscape {
 }
 
 .innerDiv1 {
-    background-image: url(/Inkscape/planetblue2.svg);
+    background-image: url(../Inkscape/planetblue2.svg);
 }
 
 .innerDiv2 {
-    background-image: url(/Inkscape/planetorange3.svg);
+    background-image: url(../Inkscape/planetorange3.svg);
 }
 
 .image {
