@@ -31,6 +31,8 @@ body {
 
 .start-page,
 .game-over-page {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -71,18 +73,18 @@ body {
 /* || PRE-PLAY SCREEN STYLES */
 
 .doggle-logo {
-    width: 100%;
+    width: 70%;
     height: 20%;
 }
 
 .press-start {
     margin: auto;
-    width: 100%;
+    width: 75%;
     height: 20%;
 }
 
 .how-to-play {
-    width: 100%;
+    width: 40%;
     height: 13.33333%;
 }
 
