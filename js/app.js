@@ -443,7 +443,14 @@ window.onclick = function(event) {
   }
 }
 
-// viewport height (vh) unit manipulation
+// Viewport height (vh) unit manipulation
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// Allow for resizing
+window.addEventListener('resize', () => {
+
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
 
