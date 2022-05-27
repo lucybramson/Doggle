@@ -339,6 +339,14 @@ s  .modal-image-landscape {
     .score, .timer {
         font-size: 160%;
     }
+    .press-start {
+        width: 65%;
+        height: 15%;
+    }
+    .how-to-play {
+        width: 30%;
+        height: 10%;
+    }
 } 
 
 @media only screen and (min-width: 768px) and (min-height: 600px) and (orientation: landscape) {
