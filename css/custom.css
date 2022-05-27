@@ -222,9 +222,9 @@ s  .modal-image-landscape {
     align-items: end;
 }
 
-.time-div {
+/* .time-div {
     justify-content: space-between;
-}
+} */
 
 .score-div {
     justify-content: end;
@@ -290,12 +290,12 @@ s  .modal-image-landscape {
 /* || MEDIA QUERIES */
 
 @media only screen and (min-width: 380px) {
-    .time-div {
+    /* .time-div {
         padding: 0% 5%;
-    }
-    .score-div {
+    } */
+    /* .score-div {
         padding-right: 5%;
-    }
+    } */
     .score, .timer {
         font-size: 90%;
     }
