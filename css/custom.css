@@ -347,6 +347,9 @@ s  .modal-image-landscape {
         width: 30%;
         height: 10%;
     }
+    .doggle-logo {
+        width: 60%;
+    }
 } 
 
 @media only screen and (min-width: 768px) and (min-height: 600px) and (orientation: landscape) {

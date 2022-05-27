@@ -387,6 +387,11 @@ function scoreAnimate() {
 
 // Modal window - Instructions
 
+// Get the button that need to be hidden when the modal is displayed
+const hideDoggle = document.querySelector(".doggle-logo");
+const hidePressStart = document.querySelector(".press-start");
+const hideHowToPlay = document.querySelector(".how-to-play");
+
 // Get the modal
 const modal = document.querySelector("#modal-pre-play");
 
@@ -399,17 +404,26 @@ const closeBtn = document.getElementsByClassName("back-button")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
+  hideDoggle.style.display = "none";
+  hidePressStart.style.display = "none";
+  hideHowToPlay.style.display = "none";
 }
 
 // When the user clicks on <span> (x), close the modal
 closeBtn.onclick = function() {
   modal.style.display = "none";
+  hideDoggle.style.display = "block";
+  hidePressStart.style.display = "block";
+  hideHowToPlay.style.display = "block";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    hideDoggle.style.display = "block";
+    hidePressStart.style.display = "block";
+    hideHowToPlay.style.display = "block";
   }
 }
 
@@ -440,6 +454,9 @@ closeBtnInner.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modalInner) {
     modalInner.style.display = "none";
+    hideDoggle.style.display = "block";
+    hidePressStart.style.display = "block";
+    hideHowToPlay.style.display = "block";
   }
 }
 
