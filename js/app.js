@@ -212,7 +212,7 @@ return cardsArray
 function changeCards() { 
 
 let $allImages = $('.image');
-$allImages.removeClass('match');
+$allImages.removeClass('match').addClass('noMatch');
 
 let twoNewCards = (generateCards());
 
@@ -232,12 +232,18 @@ id.setAttribute('src', `img/${j}.jpg`);
 let testIndex = twoNewCards[2];
 
 let $matchingImage = $(`img[src="img/${testIndex}.jpg"]`);
-$matchingImage.addClass('match');
+$matchingImage.addClass('match').removeClass('noMatch');
 
 // Add event listener to the matching dogs, in order to increment score on click
 let winningCards = document.querySelectorAll('.match');
 winningCards.forEach(card => {
     card.addEventListener('click', incrementScore);
+});
+
+// Add event listener to the non-matching dogs, in order to increment score on click
+let wrongCards = document.querySelectorAll('.noMatch');
+wrongCards.forEach(card => {
+    card.addEventListener('click', wrongDog);
 });
 }
 
@@ -251,11 +257,26 @@ function removeListener() {
 
 // Called by event listener on winning pair. Removes matching pair, increments score and calls changeCards() to display two new planet cards
 function incrementScore() {
-    removeListener();
+    removeListener()
+    removeWrongListener();
     score += 1;
     document.querySelector('#score-counter').innerHTML = score;
     scoreAnimate();
     changeCards();
+};
+
+// Removes event listener from wrong cards upon clicking one of the winning pair
+function removeWrongListener() {
+    const removalWrongCards = document.querySelectorAll('.noMatch');
+    removalWrongCards.forEach(card => {
+        card.removeEventListener('click', wrongDog)
+    });
+}
+
+// Called by event listener on non-matching pair. 
+function wrongDog() {
+    $tryAgain.velocity("fadeIn", { duration: 250 })
+    .velocity("fadeOut", { delay: 650, duration: 500 });
 };
 
 // Set the display property of the wrappers on page load
@@ -348,6 +369,8 @@ const $middleMiddle = $('.middle-middle');
 const $littleDoggies1 = $('.imageL');
 const $littleDoggies2 = $('.imageR');
 const $score = $('#score-counter');
+const $goodBoy = $('.good-boy');
+const $tryAgain = $('.try-again');
 
 // animation - functions
 function reverseAnimate() {
@@ -383,6 +406,8 @@ function dogsAnimate(){
 
 function scoreAnimate() {
     $score.velocity({scaleX: 1.3, scaleY: 1.4}, {duration: 400, easing: [0.68, -0.55, 0.265, 1.55]}).velocity('reverse');
+    $goodBoy.velocity("fadeIn", { duration: 250 })
+    .velocity("fadeOut", { delay: 650, duration: 500 });
 };
 
 // Modal window - Instructions
@@ -470,4 +495,7 @@ window.addEventListener('resize', () => {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   });
+
+
+     
 

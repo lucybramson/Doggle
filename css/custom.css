@@ -39,7 +39,8 @@ body {
     margin: auto;
 }
 
-/* .match2 {
+/* FOR TESTING */
+/* .match {
     border: 7px solid greenyellow;
 } */
 
@@ -425,6 +426,27 @@ s  .modal-image-landscape {
         width: 40%;
     }
 }
+
+.feedback-pop-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.good-boy {
+    display: none;
+}
+
+.try-again {
+    display: none;
+}
+
+#outer-div {
+    position: relative;
+}
+
 
 
 
