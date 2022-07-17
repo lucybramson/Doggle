@@ -149,6 +149,12 @@ const masterDogsList = [
         breed: "Labradoodle",
         id: 30,
         url: "img/30.jpg"
+    },
+    {
+        breed: "Toy Poodle",
+        id: 31,
+        url: "img/31.jpg",
+        name: "pear"
     }
 ];
 
