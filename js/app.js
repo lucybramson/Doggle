@@ -154,7 +154,73 @@ const masterDogsList = [
         breed: "Toy Poodle",
         id: 31,
         url: "img/31.jpg",
-        name: "pear"
+        name: "Pear"
+    },
+    {
+        breed: "King Charles",
+        id: 32,
+        url: "img/32.jpg",
+        name: "Leo"
+    },
+    {
+        breed: "Rhodesian Ridgeback",
+        id: 33,
+        url: "img/33.jpg",
+        name: "Maya"
+    },
+    {
+        breed: "Norfolk Terrier",
+        id: 34,
+        url: "img/34.jpg",
+        name: "Bonnie"
+    },
+    {
+        breed: "Norfolk Terrier",
+        id: 35,
+        url: "img/35.jpg",
+        name: "Bonnie"
+    },
+    {
+        breed: "Spaniel tbc",
+        id: 36,
+        url: "img/36.jpg",
+        name: "Igor"
+    },
+    {
+        breed: "Norfolk Terrier",
+        id: 37,
+        url: "img/37.jpg",
+        name: "Bonnie"
+    },
+    {
+        breed: "Little Terrier",
+        id: 38,
+        url: "img/38.jpg",
+        name: "Don't know!"
+    },
+    {
+        breed: "Romanian Rescue",
+        id: 39,
+        url: "img/39.jpg",
+        name: "Billy"
+    },
+    {
+        breed: "Spaniel tbc",
+        id: 40,
+        url: "img/40.jpg",
+        name: "Lenny"
+    },
+    {
+        breed: "German Spitz",
+        id: 41,
+        url: "img/41.jpg",
+        name: "Oliver"
+    },
+    {
+        breed: "French Bulldog",
+        id: 42,
+        url: "img/42.jpg",
+        name: "Peggy"
     }
 ];
 
@@ -281,8 +347,9 @@ function removeWrongListener() {
 
 // Called by event listener on non-matching pair. 
 function wrongDog() {
-    $tryAgain.velocity("fadeIn", { duration: 250 })
-    .velocity("fadeOut", { delay: 650, duration: 500 });
+    $tryAgain.velocity({translateX: '-50%', translateY: '-50%'}, {duration: 1})
+    .velocity("transition.bounceIn", {duration: 275})
+    .velocity("transition.bounceOut", { delay: 450, duration: 250 });
 };
 
 // Set the display property of the wrappers on page load
@@ -412,8 +479,9 @@ function dogsAnimate(){
 
 function scoreAnimate() {
     $score.velocity({scaleX: 1.3, scaleY: 1.4}, {duration: 400, easing: [0.68, -0.55, 0.265, 1.55]}).velocity('reverse');
-    $goodBoy.velocity("fadeIn", { duration: 250 })
-    .velocity("fadeOut", { delay: 650, duration: 500 });
+    $goodBoy.velocity({translateX: '-50%', translateY: '-50%'}, {duration: 1})
+    .velocity("transition.bounceIn", {duration: 275})
+    .velocity("transition.bounceOut", { delay: 515, duration: 250 });
 };
 
 // Modal window - Instructions

@@ -40,9 +40,9 @@ body {
 }
 
 /* FOR TESTING */
-.match {
+/* .match {
     border: 7px solid greenyellow;
-}
+} */
 
 /* || TYPOGRAPHY STYLES */
 
@@ -248,6 +248,28 @@ s  .modal-image-landscape {
 .divider {
     color: transparent;
 }
+
+/* || FEEDBACK POP-UP STYLES */
+
+.feedback-pop-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.good-boy {
+    display: none;
+}
+
+.try-again {
+    display: none;
+}
+
+#outer-div {
+    position: relative;
+}
+
 /* || GAME OVER SCREEN STYLES */
 
 .game-over-badge {
@@ -427,25 +449,7 @@ s  .modal-image-landscape {
     }
 }
 
-.feedback-pop-up {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
 
-.good-boy {
-    display: none;
-}
-
-.try-again {
-    display: none;
-}
-
-#outer-div {
-    position: relative;
-}
 
 
 
