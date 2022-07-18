@@ -570,6 +570,17 @@ window.addEventListener('resize', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   });
 
+// links start button back to start page
+
+const backToStart = document.querySelector('.back-to-start');
+
+backToStart.onclick = function() {
+    document.querySelector('#game-over').style.setProperty('display', 'none');
+    document.querySelector('#pre-play').style.setProperty('display', 'flex');
+};
+
+
+
 
      
 

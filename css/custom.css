@@ -292,6 +292,10 @@ s  .modal-image-landscape {
     margin-right: -1rem;
 }
 
+.back-to-start {
+    width: 40%;
+}
+
 /* || TRANSITIONS & TRANSFORMS */
 
 .pre-play-buttons,
